@@ -23,7 +23,7 @@ public class RestClient {
 	CloseableHttpClient httpClient = HttpClients.createDefault();
 	HttpGet httpGet = new HttpGet(url);
 	CloseableHttpResponse httpResponse = httpClient.execute(httpGet);
-	
+	System.out.println("testtttti");
 	return httpResponse;
 	}
 	
